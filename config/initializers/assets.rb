@@ -18,12 +18,9 @@ Rails.application.config.assets.precompile += %w(
   style.css
   application.css
   plugins.css
-  shop-style.css
-  style-event.css
   cubeportfolio.min.css
   application.js
   assan.custom.js
-  cable.js
   chart.custom.js
   cube-thumb-slider.js
   gmaps-custom.js
