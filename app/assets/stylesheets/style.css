@@ -18,7 +18,7 @@ Assan main style file
   font-weight: normal;
   font-style: normal; }
 
-/**et line icons**/
+/*et line icons*/
 @font-face {
   font-family: 'et-line';
   src: url("../et-line-font/fonts/et-line.eot");
@@ -60,7 +60,7 @@ a {
     outline: 0 !important;
     color: #666; }
 
-/**typography**/
+/*typography*/
 h1,
 h2,
 h3,
@@ -831,7 +831,7 @@ SOCIAL BUTTONS
 .social-icon-lg:hover i:first-child {
   margin-top: -60px; }
 
-/***social icons small***/
+/*social icons small*/
 .social-icon-sm {
   margin: 0 5px 5px 0;
   width: 30px;
@@ -895,7 +895,7 @@ si-border {
   border: 0px !important;
   color: #fff !important; }
 
-/**icons hover colored**/
+/*icons hover colored*/
 .si-colored-facebook, .si-facebook:hover {
   background-color: #3B5998 !important; }
 
@@ -1108,7 +1108,7 @@ Assan Header Style
 .navbar-brand {
   position: relative; }
 
-/**canvas header**/
+/*canvas header*/
 .pushy {
   width: 290px; }
   .pushy.pushy-right {
@@ -1159,8 +1159,8 @@ Assan Header Style
 .pushy a.btn-primary {
   color: #fff; }
 
-/***********Header dark**************/
-/**header transparent and semi transparent**/
+/*Header dark*/
+/*header transparent and semi transparent*/
 @media (min-width: 992px) {
   .navbar {
     padding: 0rem 1rem; }
@@ -1218,7 +1218,7 @@ Assan Header Style
         color: white; }
     .navbar.navbar-transparent.nav-sticky.nav-stick-top .active .nav-link, .navbar.navbar-transparent.nav-sticky.nav-stick-top .nav-item.show .nav-link {
       color: #4782d3 !important; }
-  /**header sticky**/
+  /*header sticky*/
   .navbar.navbar-transparent.nav-sticky .navbar-brand .logo {
     position: absolute;
     top: -10px; }
@@ -1260,7 +1260,7 @@ Assan Header Style
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
     .nav-sticky-top.navbar-light.bg-faded .navbar-brand {
       top: 0px; }
-  /**navbar light transparent**/
+  /*navbar light transparent*/
   .navbar-light.navbar-transparent-light {
     position: absolute;
     left: 0;
@@ -1276,7 +1276,7 @@ Assan Header Style
   .nav-sticky-top {
     z-index: 9999 !important; } }
 
-/**seconday navbar**/
+/*seconday navbar*/
 .navbar-seconday {
   padding: .4rem 0; }
   .navbar-seconday .nav-link {
@@ -1754,7 +1754,7 @@ Blog post entries
   font-size: 1rem;
   font-weight: 700; }
 
-/***owl carousel**/
+/*owl carousel*/
 .owl-carousel .owl-item img {
   display: block;
   width: auto; }
@@ -1931,7 +1931,7 @@ Hero templates
   margin-bottom: 25px;
   font-weight: 700; }
 
-/**coming soon full screen**/
+/*coming soon full screen*/
 .comingSoon h3 {
   font-size: 4rem;
   color: #fff; }
@@ -2024,7 +2024,7 @@ Icon boxes
     line-height: 90px;
     font-size: 40px; }
 
-/**hover icons**/
+/*hover icons*/
 .icon-hover-1 {
   display: inline-block;
   font-size: 0px;
@@ -2095,7 +2095,7 @@ Icon boxes
     z-index: 2;
     font-size: 20px; }
 
-/**icon border box**/
+/*icon border box*/
 .icon-border-box {
   border: 1px solid #eee;
   padding: 30px 20px 15px; }
@@ -2103,7 +2103,7 @@ Icon boxes
     position: relative;
     font-size: 30px; }
 
-/***special features***/
+/*special features*/
 .special-feature .section-title hr {
   border-color: #151515; }
 
@@ -2261,7 +2261,7 @@ Image boxes styled hover styles
     font-size: 12px;
     font-weight: 400; }
 
-/**popup zoom effect animation style**/
+/*popup zoom effect animation style*/
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
@@ -2292,7 +2292,7 @@ Image boxes styled hover styles
     .product-meta h4 del {
       color: #aeaeae; }
 
-/**project thumb**/
+/*project thumb*/
 .project-thumb {
   text-align: center; }
   .project-thumb img {
@@ -2304,7 +2304,7 @@ Image boxes styled hover styles
     margin-bottom: 1.85714286em;
     display: block; }
 
-/**project overlay**/
+/*project overlay*/
 .project-overlay {
   display: block;
   position: relative;
@@ -2331,7 +2331,7 @@ Image boxes styled hover styles
       font-weight: 400;
       margin-bottom: 5px; }
 
-/**image video icon**/
+/*image video icon*/
 .video-icon-image {
   position: relative;
   overflow: hidden; }
@@ -2345,7 +2345,7 @@ Image boxes styled hover styles
     margin-top: -30px;
     margin-left: -30px; }
 
-/**half image section**/
+/*half image section*/
 @media (min-width: 992px) {
   .half-image-content {
     position: relative;
