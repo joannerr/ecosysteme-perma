@@ -17,7 +17,6 @@ Rails.application.config.assets.paths << Rails.root.join('lib')
 Rails.application.config.assets.precompile += %w(
   style.css
   application.css
-  plugins.css
   cubeportfolio.min.css
   application.js
   assan.custom.js
@@ -25,6 +24,5 @@ Rails.application.config.assets.precompile += %w(
   cube-thumb-slider.js
   gmaps-custom.js
   jquery.gmap.min.js
-  plugins.js
   jquery.cubeportfolio.min.js
 )

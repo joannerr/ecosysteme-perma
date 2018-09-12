@@ -13,7 +13,6 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require plugins
 //= require cube-thumb-slider.js
 //= require gmaps-custom.js
 //= require assan.custom
