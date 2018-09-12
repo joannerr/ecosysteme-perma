@@ -704,7 +704,7 @@ Buttons
 .btn-secondary.disabled, .btn-secondary:disabled {
   background-color: #f5f5f5; }
 
-/**fill buttons**/
+/*fill buttons*/
 .btn-primary, .btn-success, .btn-warning, .btn-danger, .btn-info, .btn-secondary, .btn-white, .btn-dark {
   box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.18);
   border: 0px; }
@@ -758,12 +758,8 @@ Buttons
   background: #4782d3;
   color: #fff; }
 
-/****************
-
-SOCIAL BUTTONS
-
-**********************/
-/**social icons default size**/
+/*SOCIAL BUTTONS*/
+/*social icons default size*/
 .social-icon {
   margin: 0 5px 5px 0;
   width: 40px;
@@ -797,7 +793,7 @@ SOCIAL BUTTONS
 .social-icon:hover i:first-child {
   margin-top: -40px; }
 
-/***social icons lg (big)***/
+/*social icons lg (big)*/
 .social-icon-lg {
   margin: 0 5px 5px 0;
   width: 60px;
@@ -1111,7 +1107,7 @@ Assan Header Style
 /*canvas header*/
 .pushy {
   width: 290px; }
-  .pushy.pushy-right {
+.pushy.pushy-right {
     -webkit-transform: translate3d(290px, 0, 0);
     -ms-transform: translate3d(290px, 0, 0);
     transform: translate3d(290px, 0, 0); }
@@ -1274,7 +1270,8 @@ Assan Header Style
     margin-left: -66px;
     top: 33px !important; }
   .nav-sticky-top {
-    z-index: 9999 !important; } }
+    z-index: 9999 !important; } 
+}
 
 /*seconday navbar*/
 .navbar-seconday {
@@ -1909,7 +1906,7 @@ Hero templates
     font-size: 3rem;
     line-height: 3rem; } }
 
-/**particle hero**/
+/*particle hero*/
 .particle-bg {
   position: relative;
   overflow: hidden; }
@@ -2763,10 +2760,8 @@ Revolution slider customization
   font-family: "Open Sans", sans-serif;
   font-weight: 300; }
 
-/****text slider**/
-/*
-Template sidebar
-*/
+/*text slider*/
+/*Template sidebar*/
 .sidebar-title {
   margin-bottom: 1rem;
   font-size: 1.1rem; }
@@ -3113,7 +3108,7 @@ Top bar style
   .links .list-inline-item a:hover {
     color: #4782d3; }
 
-/**dark top bar**/
+/*dark top bar*/
 .top-bar.dark {
   background: #222; }
 
@@ -3299,7 +3294,7 @@ Smart form customization
 .smart-forms .select-multiple select:focus, .smart-forms .gui-input:focus ~ .input-hint, .smart-forms .gui-textarea:focus ~ .input-hint, .smart-forms .file .gui-file:focus + .gui-input {
   border-color: #4782d3 !important; }
 
-/********typed text cursor style*********/
+/*typed text cursor style*/
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
@@ -3584,8 +3579,8 @@ Footer styles
     display: block;
     text-align: right; }
 
-/****sticky-footer**/
-/**sticky footer*/
+/*sticky-footer*/
+/*sticky footer*/
 html.footer-sticky, .footer-sticky body {
   height: 100%; }
 
@@ -3659,7 +3654,7 @@ Responsive Utilites Style (This css is removed from beta version)
 .visible-print-block {
   display: none !important; }
 
-/**intro css (you can remove it)**/
+/*intro css (you can remove it)*/
 /*
 Assan Demos landing page style
 */
