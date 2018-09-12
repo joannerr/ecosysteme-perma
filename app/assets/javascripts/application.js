@@ -13,8 +13,10 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require jquery.cubeportfolio.min
 //= require plugins
+//= require cube-thumb-slider.js
+//= require gmaps-custom.js
 //= require assan.custom
 //= require jquery.gmap.min
+//= require jquery.cubeportfolio.min
 //= require_tree .
