@@ -4471,9 +4471,6 @@
 .ti-rss-alt:before {
   content: "\e75f";
 }
-@charset "UTF-8" {
-
-}
 
 .animated {
   -webkit-animation-duration: 1s;
