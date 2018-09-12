@@ -14,17 +14,13 @@
   </head>
 
   <body>
-    
+
     <%= render 'layouts/header' %>
     <%= yield %>
     <%= render 'layouts/footer' %>
 
     <% javascript_include_tag 'application.js' %>
     <% javascript_include_tag 'assan.custom.js' %>
-    <% javascript_include_tag 'chart.custom.js' %>
-    <% javascript_include_tag 'cube-thumb-slider.js' %>
-    <% javascript_include_tag 'gmaps-custom.js' %>
-    <% javascript_include_tag 'jquery.gmap.min.js' %>
     <% javascript_include_tag 'plugins.js' %>
     <% javascript_include_tag 'jquery.cubeportfolio.min.js' %>
   </body>

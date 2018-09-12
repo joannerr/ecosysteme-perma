@@ -21,10 +21,6 @@ Rails.application.config.assets.precompile += %w(
   cubeportfolio.min.css
   application.js
   assan.custom.js
-  chart.custom.js
-  cube-thumb-slider.js
-  gmaps-custom.js
-  jquery.gmap.min.js
   plugins.js
   jquery.cubeportfolio.min.js
 )

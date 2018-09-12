@@ -14,9 +14,7 @@
 //= require activestorage
 //= require turbolinks
 //= require plugins
-//= require cube-thumb-slider.js
-//= require gmaps-custom.js
 //= require assan.custom
-//= require jquery.gmap.min
 //= require jquery.cubeportfolio.min
+//= require jquery_ujs
 //= require_tree .
