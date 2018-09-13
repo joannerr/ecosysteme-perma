@@ -16,11 +16,4 @@ Rails.application.config.assets.paths << Rails.root.join('lib')
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 Rails.application.config.assets.precompile += %w(
   style.css
-  application.css
-  plugins.css
-  cubeportfolio.min.css
-  application.js
-  assan.custom.js
-  plugins.js
-  jquery.cubeportfolio.min.js
 )

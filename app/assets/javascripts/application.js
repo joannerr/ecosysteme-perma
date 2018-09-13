@@ -14,7 +14,8 @@
 //= require activestorage
 //= require turbolinks
 //= require plugins
-//= require assan.custom
 //= require jquery.cubeportfolio.min
+//= require assan.custom
 //= require jquery_ujs
+//= require jquery.gmap.min
 //= require_tree .
