@@ -4,7 +4,7 @@
 
     <div class="site-overlay"></div>
 
-    <div class="bg-parallax fullscreen parallax-overlay" data-jarallax='{"speed": 0.2}' style='background-image: url(<%= asset_path 'forest.jpg' %>)'>
+    <div class="bg-parallax fullscreen parallax-overlay" data-jarallax='{"speed": 0.1}' style='background-image: url(<%= asset_path 'forest.jpg' %>)'>
         <div class="d-flex align-items-center">
             <div class="container">
                 <div class=" row">
@@ -23,14 +23,7 @@
                             <form method="post" action="/search">
                                 <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
                                 <div class="row">
-                                    <div class="col-md-12 mb20">
-                                        <input type="text" class="form-control" placeholder="Ex: tomates sol argileux" required="" name="plante_search">
-                                    </div>
-                                    
-                                    <div class="col-md-12">
-                                        <!-- IL FAUT CHANGER LE BUTTON EN BALISE <a> :D -->
-                                        <button type="submit" class="btn btn-primary mb-2">Rechercher</button>
-                                    </div>
+                                    <input type="text" class="form-control" placeholder="Recherche : tomates" required="" name="plante_search">
                                 </div>
                             </form>
                         </div>
