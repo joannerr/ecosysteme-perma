@@ -1,9 +1,31 @@
 Rails.application.routes.draw do
-	root to: "static_pages#index"
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-	get '/presentation', to: 'static_pages#presentation'
-	get '/partenaires', to: 'static_pages#partners'
-	get '/profil', to: 'static_pages#profile'
-	get '/fondation', to: 'static_pages#foundation'
+#  devise_for :users
+	root to: "home#index"
+
+	get '/presentation', to: 'home#presentation'
+
+	# mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
+	# devise_for :users
+
+	post '/equipe', to: 'equipe#create'
+	get '/equipe', to: 'equipe#index'
+
+	resources :charges, only: [:don, :create, :thanks]
+
+	get '/fondation', to: 'home#fondation'
+	get 'presentation', to: 'home#presentation'
+
+	get '/don', to: 'charges#donation'
+	post '/don', to: 'charges#create'
+	get '/donateurs', to: 'charges#donateurs'
+
+	get '/partenaires', to: 'home#partners'
+
+	post '/search', to: 'home#search'
+	get '/search/:plante', to: 'home#search2'
+
+	get '/profil', to: 'home#profil'
+	get '/add', to: 'plantes#add'
 end
