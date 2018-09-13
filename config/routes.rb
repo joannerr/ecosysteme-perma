@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
 
 #  devise_for :users
-	root to: "home#index"
+	root to: "home#index", to: 'home#presentation'
 
-	get '/presentation', to: 'home#presentation'
 
+	get '/technologie', to: 'home#index'
 	# mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
 	# devise_for :users
