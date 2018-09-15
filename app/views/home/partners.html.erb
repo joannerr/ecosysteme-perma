@@ -1,4 +1,4 @@
-<div class="page-titles-img title-space-lg parallax-overlay bg-parallax" data-jarallax='{"speed": 0.4}' style='background-image: url(<%=asset_path 'bg7.jpg' %>);background-position:top center;'>
+<div class="page-titles-img title-space-lg parallax-overlay bg-parallax" data-jarallax='{"speed": 0.4}' style='background-image: url(<%=asset_path 'business.jpg' %>);background-position:top center;'>
     <div class="container">
         <div class="row">
             <div class=" col-md-12">
@@ -13,11 +13,11 @@
         <h3>Mécenats</h3>
     </div>
     <ul class="clients-grid mb0 column4 clearfix">
+      <li><%= link_to image_tag("maersk.jpg", :class => "img-logo", :alt => "Maersk"), "https://www.maersk.com/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("boskalis.jpg", :class => "img-logo", :alt => "Boskalis"), "http://boskalis.com/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("dbbw.jpg", :class => "img-logo", :alt => "Boskalis"), "https://www.debrauw.com/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("deloitte.jpg", :class => "img-logo", :alt => "Deloitte"), "https://www2.deloitte.com/global/en.html?icid=site_selector_global", :target => "_blank" %></li>
 
-      <li><img src=<%= asset_path 'cl-1.png' %> class="img-fluid" alt="mecenes"></li>
-      <li><img src=<%= asset_path 'cl-2.png' %> class="img-fluid" alt="mecenes"></li>
-      <li><img src=<%= asset_path 'cl-3.png' %> class="img-fluid" alt="mecenes"></li>
-      <li><img src=<%= asset_path 'cl-4.png' %> class="img-fluid" alt="mecenes"></li>
     </ul>
 </div>
 
@@ -26,11 +26,10 @@
         <h3>O.N.G.</h3>
     </div>
     <ul class="clients-grid mb0 column4 clearfix">
-
-        <li><img src=<%= asset_path 'cl-1.png' %> class="img-fluid" alt="mecenes"></li>
-        <li><img src=<%= asset_path 'cl-2.png' %> class="img-fluid" alt="mecenes"></li>
-        <li><img src=<%= asset_path 'cl-3.png' %> class="img-fluid" alt="mecenes"></li>
-        <li><img src=<%= asset_path 'cl-4.png' %> class="img-fluid" alt="mecenes"></li>
+      <li><%= link_to image_tag("wwf.png", :class => "img-logo", :alt => "WWF"), "http://www.worldwildlife.org/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("peeda-logo.png", :class => "img-logo", :alt => "Peeda"), "https://peeda.net/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("girls.png", :class => "img-logo", :alt => "Girls for change"), "http://www.girlsforachange.org/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("perc.png", :class => "img-logo", :alt => "Perc"), "https://perc.ca/", :target => "_blank" %></li>
 
 
     </ul>
@@ -38,14 +37,13 @@
 
 <div class="container pt90 pb50">
     <div class="title-heading1 mb60">
-        <h3>Institutions</h3>
+        <h3>Partenaires Académiques</h3>
     </div>
     <ul class="clients-grid mb0 column4 clearfix">
-
-        <li><img src=<%= asset_path 'cl-1.png' %> class="img-fluid" alt="NGO"></li>
-        <li><img src=<%= asset_path 'cl-2.png' %> class="img-fluid" alt="NGO"></li>
-        <li><img src=<%= asset_path 'cl-3.png' %> class="img-fluid" alt="NGO"></li>
-        <li><img src=<%= asset_path 'cl-4.png' %> class="img-fluid" alt="NGO"></li>
+      <li><%= link_to image_tag("queens.png", :class => "img-uni", :alt => "Université de Queens"), "https://www.queensu.ca/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("rennes.png", :class => "img-uni", :alt => "Université de Rennes1"), "https://www.univ-rennes1.fr/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("oxford.png", :class => "img-uni", :alt => "Université d'Oxford"), "http://www.ox.ac.uk/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("polynesie.png", :class => "img-uni", :alt => "UPF de Polynésie"), "http://www.upf.pf/fr", :target => "_blank" %></li>
 
 
     </ul>
@@ -57,14 +55,11 @@
     </div>
     <ul class="clients-grid mb0 column4 clearfix">
 
-        <li><img src=<%= asset_path 'cl-1.png' %> class="img-fluid" alt="entreprise"></li>
-        <li><img src=<%= asset_path 'cl-2.png' %> class="img-fluid" alt="entreprise"></li>
-        <li><img src=<%= asset_path 'cl-3.png' %> class="img-fluid" alt="entreprise"></li>
-        <li><img src=<%= asset_path 'cl-4.png' %> class="img-fluid" alt="entreprise"></li>
+      <li><%= link_to image_tag("latham.jpg", :class => "img-logo", :alt => "Latham"), "https://www.lw.com/AboutUs/ProBono", :target => "_blank" %></li>
+      <li><%= link_to image_tag("microsoft_greyscale.jpg", :class => "img-logo", :alt => "Salesforce"), "https://www.salesforce.com/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("DeepGreen.jpg", :class => "img-logo", :alt => "Deep Green"), "https://deep.green/", :target => "_blank" %></li>
+      <li><%= link_to image_tag("akzonobel.jpg", :class => "img-logo", :alt => "akzonobel"), "https://www.akzonobel.com/", :target => "_blank" %></li>
 
 
     </ul>
 </div>
-
-<!--back to top-->
-<a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="ti-angle-up"></i></a>
